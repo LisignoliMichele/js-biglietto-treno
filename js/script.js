@@ -18,9 +18,9 @@ var oldDiscount = normalPrice * 0.6;
 
 // result
 if (age < 18) {
-  alert( youngDiscont )
+  alert( "the price for your ticket is " + youngDiscont + "€" )
 }else if (age >= 65) {
-  alert( oldDiscount )
+  alert( "the price for your ticket is " +  oldDiscount + "€" )
 }else{
-  alert( normalPrice)
+  alert( "the price for your ticket is " +  normalPrice + "€" )
 }
